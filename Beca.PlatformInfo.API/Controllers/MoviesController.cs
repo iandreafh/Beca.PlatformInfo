@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace PlatformInfo.API.Controllers
 {
-    [Route("api/cities/{platformId}/movies")]
+    [Route("api/platforms/{platformId}/movies")]
     [ApiController]
     public class MoviesController : ControllerBase
     {
