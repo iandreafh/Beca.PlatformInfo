@@ -120,10 +120,6 @@ namespace PlatformInfo.API.Controllers
             return NoContent();
         }
 
-        public Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary GetModelState()
-        {
-            return ModelState;
-        }
 
         [HttpPatch("{movieid}")]
         public async Task<ActionResult> PartiallyUpdateMovie(
