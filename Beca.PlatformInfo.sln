@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beca.PlatformInfo.API", "Beca.PlatformInfo.API\Beca.PlatformInfo.API.csproj", "{B89C8660-6F1C-4939-859E-5E607AC726D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platforms.Test", "PlatformsTest\Platforms.Test.csproj", "{6B927B27-5075-43BE-AE12-213C7B3E0B74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B89C8660-6F1C-4939-859E-5E607AC726D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B89C8660-6F1C-4939-859E-5E607AC726D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B89C8660-6F1C-4939-859E-5E607AC726D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B927B27-5075-43BE-AE12-213C7B3E0B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B927B27-5075-43BE-AE12-213C7B3E0B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B927B27-5075-43BE-AE12-213C7B3E0B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B927B27-5075-43BE-AE12-213C7B3E0B74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
